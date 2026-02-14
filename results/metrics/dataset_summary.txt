@@ -1,0 +1,7 @@
+Total Images: 21,165
+
+Classes: COVID, Normal, Lung_Opacity, Viral Pneumonia
+
+Training Split: 80%
+
+Image Resolution: 224x224 (Grayscale)
