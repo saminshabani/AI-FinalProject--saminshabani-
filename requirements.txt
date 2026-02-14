@@ -1,0 +1,19 @@
+# پایه و پردازش داده
+numpy<2.0
+pandas
+openpyxl
+tqdm
+
+# یادگیری ماشین و پردازش تصویر
+tensorflow>=2.10.0
+scikit-learn
+opencv-python
+Pillow
+
+# بصری‌سازی و نمودارها
+matplotlib
+seaborn
+plotly
+
+# رابط کاربری (UI)
+streamlit
