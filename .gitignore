@@ -1,0 +1,56 @@
+# --- پروژه هوش مصنوعی: تشخیص بیماری‌های ریوی ---
+
+# [داده‌ها و دیتاست‌های حجیم]
+# طبق فاز ۱ و ۲، فایل‌های اصلی تصاویر و تانسورهای پردازش شده نباید آپلود شوند
+data/raw/
+data/processed/*.npy
+*.zip
+*.tar.gz
+*.rar
+
+# [مدل‌های آموزش دیده]
+# مدل‌های با فرمت h5 یا keras معمولاً بیش از ۱۰۰ مگابایت هستند
+*.h5
+*.keras
+*.tflite
+models/checkpoint/
+
+# [محیط مجازی - Python Virtual Env]
+venv/
+.venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+
+# [فایل‌های موقت و کش سیستم]
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# [تنظیمات Streamlit و رابط کاربری]
+.streamlit/config.toml
+static/
+
+# [فایل‌های خروجی نوت‌بوک و لاگ]
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+training_log.csv
+*.log
+
+# [فایل‌های تنظیمات شخصی IDE]
+.vscode/
+.idea/
+*.swp
+*.swo
